@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,6 +21,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <header>
+        <nav>
+          <Link>City Name</Link>
+          <Link>City Name</Link>
+          <Link>City Name</Link>
+        </nav>
+      </header>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
