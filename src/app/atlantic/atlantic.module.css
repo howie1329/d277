@@ -1,0 +1,25 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.textDiv {
+    display: flex;
+    text-align: center;
+}
+
+.infoDiv {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.pageDiv {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    gap: 25px;
+}

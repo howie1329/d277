@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#button {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+#button:hover {
+    border-color: green;
+        border-width: 2px;
+        border-style: solid;
+        padding: 7px;
+        border-radius: 25px;
+}
